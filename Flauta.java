@@ -1,21 +1,14 @@
-public class Flauta extends Instrumentos{
+public class Flauta extends Instrumentossopro{
 
-    private int nCordas;
-    private int tamanho;
-    private String tom;
-
-    public void Violao(String tom, int tamanho){
-        super(tom, tamanho);
-
-        this.tom = tom;
-        this.tamanho = tamanho;
+    public Flauta(String tom, int tamanho) {
+        super();
     }
     
     @Override
 
-    public void Tocar(){
+    public void tocarMelodia(){
 
-        System.out.println("Tocando violao!!");
+        System.out.println("Tocando melodia com a flauta!!");
     }
     
 }
